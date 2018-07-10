@@ -13,21 +13,12 @@ import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtBuilder;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
-
+/**
+ * 
+ * @author jason
+ *
+ */
 public class Jwt {
-    /**
-     * 生成token
-     * 
-     * @author njs
-     * @param name     keyId
-     * @param userId   
-     * @param role
-     * @param audience   接收者
-     * @param issuer     发行者
-     * @param TTLMillis  过期时间(毫秒)
-     * @param base64Security
-     * @return
-     */
     public static String createJWT( String userNo,long TTLMillis, String base64Security) 
     {
         SignatureAlgorithm signatureAlgorithm = SignatureAlgorithm.HS256;
