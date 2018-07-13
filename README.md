@@ -12,6 +12,7 @@ druid连接池及访问统计功能
 
 以后若有springboot小项目或者某天心血来潮，可以在此基础上继续开发
 
+aop切面拦截
 
 E-mail：ningjinsen@163.com
 @Author Jason(宁无敌/裘千仞）
